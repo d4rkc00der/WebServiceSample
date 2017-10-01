@@ -12,5 +12,5 @@ import javax.jws.soap.SOAPBinding
 @SOAPBinding(style = SOAPBinding.Style.RPC)
         public interface MyService {
     @WebMethod
-    public fun getNameOfService(name : String) : String
+    public fun getNameOfService() : String
 }

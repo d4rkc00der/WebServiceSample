@@ -8,7 +8,7 @@ import javax.jws.WebService
 
 @WebService(endpointInterface = "com.soho.shumakov.ws.MyService")
 public class MyServiceImpl : MyService {
-    override fun getNameOfService(name: String): String {
+    override fun getNameOfService(): String {
         return "Name of service, " + this.toString()
     }
 }
